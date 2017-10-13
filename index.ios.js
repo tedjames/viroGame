@@ -22,12 +22,8 @@ import {
   ViroARSceneNavigator
 } from 'react-viro';
 
-/*
- TODO: Insert your API key below
- */
-var sharedProps = {
-  apiKey:"ACAECF47-6B16-4D14-AE98-213C3E47233C",
-}
+import { apiKey } from './apiKey';
+const sharedProps = { apiKey };
 
 // Default VR scene
 var InitialVRScene = require('./js/HelloWorldScene');
