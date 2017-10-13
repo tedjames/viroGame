@@ -61,7 +61,7 @@ export default class ViroSample extends Component {
     }
   }
 
-  // Presents the user with a choice of an VR with our without a headset
+  // Presents the user with a choice of an VR with our without a headset 
   _getExperienceSelector() {
     return (
       <View style={localStyles.outer} >
